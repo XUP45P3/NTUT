@@ -1,0 +1,23 @@
+# ===== 編輯器 / IDE 設定 =====
+# 這些是「個人環境設定」，換一台電腦就不同，不該進版本控制
+.vscode/
+.idea/
+
+# ===== Windows 系統自動產生的檔案 =====
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ===== macOS（若之後用其他電腦開這個 repo）=====
+.DS_Store
+
+# ===== Office 開檔時產生的暫存檔 =====
+# Word / Excel / PowerPoint 開著檔案時會產生 ~$ 開頭的鎖定檔
+~$*.doc*
+~$*.xls*
+~$*.ppt*
+
+# ===== 一般暫存檔 =====
+*.tmp
+*.bak
